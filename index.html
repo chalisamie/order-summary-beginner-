@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,800;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@100;200;500&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image-top">
+        <img
+          src="images/illustration-hero.svg"
+          alt="image-top"
+          style="width: 300px"
+          height="150px"
+        />
+      </div>
+      <div class="box-2">
+        <div class="order-detail">
+          <h3>Order Summary</h3>
+          <p class="detail">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="price">
+          <div class="the-price">
+            <img
+              src="images/icon-music.svg"
+              alt="icon-music"
+              width="40px"
+              height="40px"
+            />
+            <div class="plan">
+              <span>Annual Plan</span><br />
+              <span style="color: hsl(224, 23%, 55%); font-size: small">
+                $59.99/year
+              </span>
+            </div>
+          </div>
+          <a href="#" style="font-size: smaller">Change</a>
+        </div>
+        <div class="button">
+          <button
+            style="
+              background-color: hsl(245, 75%, 52%);
+              width: 250px;
+              height: 40px;
+              border-radius: 10px;
+              box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+            "
+          >
+            <p
+              style="
+                color: aliceblue;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                font-size: smaller;
+              "
+            >
+              Proceed to Payment
+            </p>
+          </button>
+        </div>
+        <p style="color: hsl(224, 23%, 55%); font-size: 12px; padding: 12px">
+          Cancel Order
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div
+      class="attribution"
+      style="display: flex; flex-direction: row; margin-top: 50px"
+    >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/marisamie">Marisa Mie</a>.
+    </div>
+  </body>
+</html>
